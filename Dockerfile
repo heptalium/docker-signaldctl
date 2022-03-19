@@ -1,4 +1,5 @@
 FROM golang:alpine
+RUN apk add --no-cache gcc musl-dev
 RUN go install -ldflags='-s -w' gitlab.com/signald/signald-go/cmd/signaldctl@latest
 
 FROM alpine

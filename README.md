@@ -1,4 +1,4 @@
-# docker-syslog
+# docker-signaldctl
 
 Used to build Docker image `ghcr.io/heptalium/signaldctl`
 
